@@ -6,7 +6,7 @@ import { DrinkSearch } from './components/DrinkSearch';
 export const App = () => {
   const [userDrink, setUserDrink] = useState();
 
-  const greeting = 'Welcome to our cafe!';
+  const greeting = 'Welcome to Aroma cafe!';
 
   return (
     <Center h="100vh" flexDir="column">

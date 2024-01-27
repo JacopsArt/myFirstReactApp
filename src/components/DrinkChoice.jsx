@@ -40,7 +40,7 @@ export const DrinkChoice = ({ drink, clickFn }) => {
         </Button>
       </Flex>
 
-      <Modal isOpen={isOpen} onClose={onClose}>
+      <Modal size={['full', 'md']} isOpen={isOpen} onClose={onClose}>
         <ModalOverlay />
         <ModalContent>
           <ModalHeader>Confirm your order</ModalHeader>
